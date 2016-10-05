@@ -36,6 +36,8 @@ namespace WindowsFormsApplication1
             this.Hide();
             maforme.ShowDialog();
             this.Show();
+
+            // test
         }
     }
 }
