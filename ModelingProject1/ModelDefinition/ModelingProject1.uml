@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+  dslVersion="1.0.0.0"
+  Id="0e32f05f-c1a0-4c2d-a6ad-cf4234658a1c"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <activity
+        Id="db62096e-be70-4c47-9ee7-e8626055c51a"
+        name="Activity1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="af6830fd-828a-4f22-b9cc-9b46cabc075b"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="d6aabb75-0d9e-4df8-9fa5-f4fd40827137"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="c929390f-9936-44a3-aed4-dad058ef50c8"
+                  LastKnownName="Identifier"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="c929390f-9936-44a3-aed4-dad058ef50c8"
+            name="Identifier"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="c6e16be6-711f-4155-b0c2-e328520709c6"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="6ad48646-050f-4f7f-88ad-f28b00f248db"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="5160ac19-1cfb-4c0e-91d3-346335ab5f62"
+            name="Gestion des clients"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5c5f1d77-c668-4a70-8851-17220bbd1321"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="31dd7827-12f6-4292-bfcc-8621a655d962"
+                  LastKnownName="catalogue produit"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="b0ad9ae5-f0be-4a56-8d0c-d1cd914ec129"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="34bf37dd-7fae-438c-a61d-35c477590b20"
+                  LastKnownName="Decision5"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="63f0604c-12ac-4d7d-b358-b00705094275"
+            name="Enregistrer le client"
+            isLeaf="false" />
+          <opaqueAction
+            Id="31dd7827-12f6-4292-bfcc-8621a655d962"
+            name="catalogue produit"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="d6ae8199-ceab-47b1-a06d-438a01f652d0"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="190c1dde-97be-4f30-af2f-cafcbc45ed2d"
+                  LastKnownName="Valider les commandes"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="b7ec08ae-0773-408c-bb18-e1caf91e473b"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="ad07777f-e586-4bd6-a7b6-270622255558"
+                  LastKnownName="Decision4"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="190c1dde-97be-4f30-af2f-cafcbc45ed2d"
+            name="Valider les commandes"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="1f677f76-e56f-4088-b009-4190c8f24c54"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="a8153150-5f7d-47c5-ba17-90424a208245"
+                  LastKnownName="Enregistrer les reglements"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="7bf18636-4a6a-4e10-a969-0af4a5459f19"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="0ec37f44-d86a-4474-8042-638b3b3404cc"
+                  LastKnownName="Decision2"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="a8153150-5f7d-47c5-ba17-90424a208245"
+            name="Enregistrer les reglements"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="2aea2568-1daf-417e-9861-3cf0501b914e"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="eaad4304-09db-4e51-8a3b-7f62786e71a5"
+                  LastKnownName="Editer paiement"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="eaad4304-09db-4e51-8a3b-7f62786e71a5"
+            name="Editer paiement"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5a67f34b-5375-4993-9b9d-40e7c052d492"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="57580316-366e-4600-95fb-7d96099c6496"
+                  LastKnownName="Decision3"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="8c975fb9-cd0d-452e-9c8f-2d30addef778"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="a35860f0-656a-4f12-a672-4588b702d2d0"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="0032e2a4-5009-4176-93e7-a2315df0b253"
+            name="Annuler"
+            isLeaf="false" />
+          <opaqueAction
+            Id="d40de45a-e42e-4c02-a836-e554339f67eb"
+            name="Reduction clientele"
+            isLeaf="false" />
+          <opaqueAction
+            Id="f560e70a-7165-429e-aa23-2a3c39f4a660"
+            name="Commande produit"
+            isLeaf="false" />
+          <decisionNode
+            Id="6ad48646-050f-4f7f-88ad-f28b00f248db"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="d99915e8-58a9-4438-a7e9-f7e01770f588"
+                guard="OK"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="5160ac19-1cfb-4c0e-91d3-346335ab5f62"
+                  LastKnownName="Gestion des clients"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode
+            Id="0ec37f44-d86a-4474-8042-638b3b3404cc"
+            name="Decision2"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="9f01430d-0b16-43af-8e6e-13ec93e4f052"
+                guard="Peut être appliqué"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="d40de45a-e42e-4c02-a836-e554339f67eb"
+                  LastKnownName="Reduction clientele"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode
+            Id="57580316-366e-4600-95fb-7d96099c6496"
+            name="Decision3"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="0c931e3a-56e3-4833-9a69-2397618371a2"
+                guard="Si erreur"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="0032e2a4-5009-4176-93e7-a2315df0b253"
+                  LastKnownName="Annuler"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode
+            Id="ad07777f-e586-4bd6-a7b6-270622255558"
+            name="Decision4"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b0d3cd98-7c73-4dd5-98e3-eec346f417f9"
+                guard="Sinon disponible"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="f560e70a-7165-429e-aa23-2a3c39f4a660"
+                  LastKnownName="Commande produit"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <activityFinalNode
+            Id="a35860f0-656a-4f12-a672-4588b702d2d0"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <decisionNode
+            Id="34bf37dd-7fae-438c-a61d-35c477590b20"
+            name="Decision5"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ac412933-88a0-4d30-8873-52e2d6d7253c"
+                guard="[Sinon répertorié]"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="63f0604c-12ac-4d7d-b358-b00705094275"
+                  LastKnownName="Enregistrer le client"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
